@@ -24,7 +24,7 @@ public class lex {
 		FileWriter fw = new FileWriter("//home//fito//silas.txt");
 		boolean x = false;
 		String completa;
-		while((line = reader.readLine()) != null) {
+		while((line = reader.readLine()) != null) { 
 			line = line.trim();
 			System.out.println(line);
 		
